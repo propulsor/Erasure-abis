@@ -31,41 +31,35 @@ const Contracts = {
             rinkebyAdd: "0x223EbC4e00eD605cC580E6B547aDbf7300B4BF4D"
         }
     },
-    Feed: {
-        factory: {
-            artifact: require("./abis/Feed_Factory.json"),
-            mainnetAdd: "0x206780873974878722Ed156544589701832eE920",
-            rinkebyAdd: "0xa3140871346f4efF924dc874EC6AfD4573232F03"
-        },
-        template: {
-            artifact: require("./abis/Feed.json"),
-            mainnetAdd: "0xA411eB36538a2Ae060A766221E43A94205460369",
-            rinkebyAdd: "0x7aA06aa3b6D5476c0CE720231E2Add74164f78CD"
-        }
+    FeedFactory: {
+        artifact: require("./abis/Feed_Factory.json"),
+        mainnetAdd: "0x206780873974878722Ed156544589701832eE920",
+        rinkebyAdd: "0xa3140871346f4efF924dc874EC6AfD4573232F03"
     },
-    SimpleGriefing: {
-        factory: {
-            artifact: require("./abis/SimpleGriefing_Factory.json"),
-            mainnetAdd: "0x67ef9503cf0350dB52130Ef2Ad053E868Bc90FC7",
-            rinkebyAdd: "0x896E5C478c297092965441A62d0a0B0A4A4CC6E8"
-        },
-        template: {
-            artifact: require("./abis/SimpleGriefing.json"),
-            mainnetAdd: "0xC04Bd2f0d484b7e0156b21c98B2923Ca8b9ce149",
-            rinkebyAdd: "0x183347dA3DABb0F8a43a49E4Df93C957030f6780"
-        }
+    FeedTemplate: {
+        artifact: require("./abis/Feed.json"),
+        mainnetAdd: "0xA411eB36538a2Ae060A766221E43A94205460369",
+        rinkebyAdd: "0x7aA06aa3b6D5476c0CE720231E2Add74164f78CD"
     },
-    CountdownGriefing: {
-        factory: {
-            artifact: require("./abis/CountdownGriefing_Factory.json"),
-            mainnetAdd: "0xd330e5e9670738D36E31dcb1fde0c08B1895a0b1",
-            rinkebyAdd: "0xab005C507c877696033e60BB99cAc9B9ADD6A741"
-        },
-        template: {
-            artifact: require("./abis/CountdownGriefing.json"),
-            mainnetAdd: "0x89a2958544f86Cc57828dbBf31E2C786f20Fe0a0",
-            rinkebyAdd: "0xb84d62fbd39bf3504d197D2405FCD5b86427D35B"
-        }
+    SimpleGriefingFactory: {
+        artifact: require("./abis/SimpleGriefing_Factory.json"),
+        mainnetAdd: "0x67ef9503cf0350dB52130Ef2Ad053E868Bc90FC7",
+        rinkebyAdd: "0x896E5C478c297092965441A62d0a0B0A4A4CC6E8"
+    },
+    SimpleGriefingTemplate: {
+        artifact: require("./abis/SimpleGriefing.json"),
+        mainnetAdd: "0xC04Bd2f0d484b7e0156b21c98B2923Ca8b9ce149",
+        rinkebyAdd: "0x183347dA3DABb0F8a43a49E4Df93C957030f6780"
+    },
+    CountdownGriefingFactory: {
+        artifact: require("./abis/CountdownGriefing_Factory.json"),
+        mainnetAdd: "0xd330e5e9670738D36E31dcb1fde0c08B1895a0b1",
+        rinkebyAdd: "0xab005C507c877696033e60BB99cAc9B9ADD6A741"
+    },
+    CountdownGriefingTemplate: {
+        artifact: require("./abis/CountdownGriefing.json"),
+        mainnetAdd: "0x89a2958544f86Cc57828dbBf31E2C786f20Fe0a0",
+        rinkebyAdd: "0xb84d62fbd39bf3504d197D2405FCD5b86427D35B"
     }
 };
 module.exports = Contracts;
